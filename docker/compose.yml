@@ -1,7 +1,7 @@
 version: "3"
 services:
   nas-tools:
-    image: 318182456/nas-tools:latest
+    image: jasonding121205/nas-tools:latest
     ports:
       - 32356:32356        # 默认的webui控制端口
     volumes:
